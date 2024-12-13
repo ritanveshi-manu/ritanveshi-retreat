@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ritanveshi-retreat/static/css/main.18dfb25f.css",
-    "main.js": "/ritanveshi-retreat/static/js/main.30562a23.js",
+    "main.js": "/ritanveshi-retreat/static/js/main.c1d63439.js",
     "static/css/960.2af55db6.chunk.css": "/ritanveshi-retreat/static/css/960.2af55db6.chunk.css",
     "static/js/960.ff98e527.chunk.js": "/ritanveshi-retreat/static/js/960.ff98e527.chunk.js",
     "static/js/609.3778a488.chunk.js": "/ritanveshi-retreat/static/js/609.3778a488.chunk.js",
@@ -17,7 +17,7 @@
     "index.html": "/ritanveshi-retreat/index.html",
     "static/media/slick.woff": "/ritanveshi-retreat/static/media/slick.295183786cd8a1389865.woff",
     "main.18dfb25f.css.map": "/ritanveshi-retreat/static/css/main.18dfb25f.css.map",
-    "main.30562a23.js.map": "/ritanveshi-retreat/static/js/main.30562a23.js.map",
+    "main.c1d63439.js.map": "/ritanveshi-retreat/static/js/main.c1d63439.js.map",
     "960.2af55db6.chunk.css.map": "/ritanveshi-retreat/static/css/960.2af55db6.chunk.css.map",
     "960.ff98e527.chunk.js.map": "/ritanveshi-retreat/static/js/960.ff98e527.chunk.js.map",
     "609.3778a488.chunk.js.map": "/ritanveshi-retreat/static/js/609.3778a488.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.18dfb25f.css",
-    "static/js/main.30562a23.js"
+    "static/js/main.c1d63439.js"
   ]
 }
