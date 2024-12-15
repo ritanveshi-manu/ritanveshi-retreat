@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/ritanveshi-retreat/static/css/main.18dfb25f.css",
-    "main.js": "/ritanveshi-retreat/static/js/main.933cf687.js",
+    "main.js": "/ritanveshi-retreat/static/js/main.cd3ecaf0.js",
     "static/css/960.2af55db6.chunk.css": "/ritanveshi-retreat/static/css/960.2af55db6.chunk.css",
-    "static/js/960.8ad9155f.chunk.js": "/ritanveshi-retreat/static/js/960.8ad9155f.chunk.js",
+    "static/js/960.748bf341.chunk.js": "/ritanveshi-retreat/static/js/960.748bf341.chunk.js",
     "static/js/609.375ba92f.chunk.js": "/ritanveshi-retreat/static/js/609.375ba92f.chunk.js",
     "static/js/281.c326986a.chunk.js": "/ritanveshi-retreat/static/js/281.c326986a.chunk.js",
     "static/js/722.509f266f.chunk.js": "/ritanveshi-retreat/static/js/722.509f266f.chunk.js",
@@ -17,9 +17,9 @@
     "index.html": "/ritanveshi-retreat/index.html",
     "static/media/slick.woff": "/ritanveshi-retreat/static/media/slick.295183786cd8a1389865.woff",
     "main.18dfb25f.css.map": "/ritanveshi-retreat/static/css/main.18dfb25f.css.map",
-    "main.933cf687.js.map": "/ritanveshi-retreat/static/js/main.933cf687.js.map",
+    "main.cd3ecaf0.js.map": "/ritanveshi-retreat/static/js/main.cd3ecaf0.js.map",
     "960.2af55db6.chunk.css.map": "/ritanveshi-retreat/static/css/960.2af55db6.chunk.css.map",
-    "960.8ad9155f.chunk.js.map": "/ritanveshi-retreat/static/js/960.8ad9155f.chunk.js.map",
+    "960.748bf341.chunk.js.map": "/ritanveshi-retreat/static/js/960.748bf341.chunk.js.map",
     "609.375ba92f.chunk.js.map": "/ritanveshi-retreat/static/js/609.375ba92f.chunk.js.map",
     "281.c326986a.chunk.js.map": "/ritanveshi-retreat/static/js/281.c326986a.chunk.js.map",
     "722.509f266f.chunk.js.map": "/ritanveshi-retreat/static/js/722.509f266f.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.18dfb25f.css",
-    "static/js/main.933cf687.js"
+    "static/js/main.cd3ecaf0.js"
   ]
 }
