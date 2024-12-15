@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "ritanveshi-retreat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -50,6 +50,6 @@
     "@types/react-slick": "^0.23.13",
     "gh-pages": "^6.2.0"
   },
-  "homepage": "https://ritanveshi-manu.github.io/"
+  "homepage": "https://ritanveshi-manu.github.io/ritanveshi-retreat"
 
 }

@@ -7,17 +7,18 @@ import { Styles } from "../styles/styles";
 
 const Router = () => {
   return (
-    <Suspense fallback={null}>
+    <Suspense fallback={<div>Loading...</div>}>
       <Styles />
       <Header />
       <Switch>
         {routes.map((routeItem) => {
+          const Component = lazy(() => import(`../pages/${routeItem.component}`));
           return (
             <Route
               key={routeItem.component}
               path={routeItem.path}
               exact={routeItem.exact}
-              component={lazy(() => import(`../pages/${routeItem.component}`))}
+              component={Component}
             />
           );
         })}
