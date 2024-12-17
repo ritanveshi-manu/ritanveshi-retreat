@@ -44,7 +44,7 @@ const Location: React.FC<LocationProps> = ({
         <Slider {...settings}>
           {images.map((image, index) => (
             <ImageSlide key={index}>
-              <img src={image} alt={`Location Image ${index + 1}`} />
+              <img src={`${process.env.PUBLIC_URL}/${image}`} alt={`Location Image ${index + 1}`} />
             </ImageSlide>
           ))}
         </Slider>

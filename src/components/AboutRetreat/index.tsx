@@ -6,8 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SvgIcon } from "../../common/SvgIcon";
 
-
-const AboutRetreat: React.FC<AboutRetreatProps> = ({ title, text, sections, images }) => {
+const AboutRetreat: React.FC<AboutRetreatProps> = ({ id, title, text, sections, images }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -19,7 +18,7 @@ const AboutRetreat: React.FC<AboutRetreatProps> = ({ title, text, sections, imag
   };
 
   return (
-    <AboutRetreatWrapper>
+    <AboutRetreatWrapper id={id}>
       <Title>{title}</Title>
       <Text>{text}</Text>
 
@@ -28,7 +27,7 @@ const AboutRetreat: React.FC<AboutRetreatProps> = ({ title, text, sections, imag
           <Slider {...settings}>
             {images.map((image, index) => (
               <ImageSlide key={index}>
-                <img src={image} alt={`${index + 1}`} />
+                <img src={`${process.env.PUBLIC_URL}/${image}`} alt={`Slide ${index + 1}`} />
               </ImageSlide>
             ))}
           </Slider>

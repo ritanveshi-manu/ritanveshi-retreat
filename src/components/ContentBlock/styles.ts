@@ -3,10 +3,12 @@ import styled from "styled-components";
 
 export const ContentSection = styled("section")`
   position: relative;
-  padding: 10rem 0 8rem;
+  padding: 10rem 2rem 8rem; /* Added horizontal padding for margin */
+  background-color: #E7F9FF;
+  box-sizing: border-box; /* Ensures padding doesn't overflow */
 
   @media only screen and (max-width: 1024px) {
-    padding: 4rem 0 4rem;
+    padding: 10rem 2rem 10rem;
   }
 `;
 
@@ -22,8 +24,10 @@ export const StyledRow = styled(Row)`
 export const ContentWrapper = styled("div")`
   position: relative;
   max-width: 540px;
+  padding: 2rem; /* Added padding for better spacing */
 
   @media only screen and (max-width: 575px) {
+    padding: 1.5rem;
     padding-top: 4rem;
   }
 `;
@@ -32,6 +36,7 @@ export const ServiceWrapper = styled("div")`
   display: flex;
   justify-content: space-between;
   max-width: 100%;
+  padding: 1.5rem; /* Added padding for spacing */
 `;
 
 export const MinTitle = styled("h6")`
@@ -51,6 +56,7 @@ export const ButtonWrapper = styled("div")`
   display: flex;
   justify-content: space-between;
   max-width: 100%;
+  margin-top: 1rem; /* Added margin for spacing above buttons */
 
   @media screen and (min-width: 1024px) {
     max-width: 80%;
