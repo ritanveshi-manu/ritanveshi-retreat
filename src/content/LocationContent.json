@@ -4,7 +4,19 @@
     "images": [
       "img/svg/location_image1.jpg",
       "img/svg/location_image2.jpg",
-      "img/svg/location_image3.jpg"
+      "img/svg/location_image3.jpg",
+      "img/svg/location_image4.jpg",
+      "img/svg/location_image5.jpg",
+      "img/svg/location_image6.jpg",
+      "img/svg/location_image7.jpg",
+      "img/svg/location_image8.jpg",
+      "img/svg/location_image9.jpg",
+      "img/svg/location_image10.jpg",
+      "img/svg/location_image11.jpg",
+      "img/svg/location_image12.jpg",
+      "img/svg/location_image13.jpg",
+      "img/svg/location_image14.jpg",
+      "img/svg/location_image15.jpg"
     ],
     "googleMapUrl": "https://www.google.com/maps/place/Rishikesh,+Uttarakhand/data=!4m2!3m1!1s0x39093e67cf93f111:0xcc78804a6f941bfe?sa=X&ved=1t:242&ictx=111",
     "id": "location"

@@ -1,61 +1,406 @@
 {
-    "title": "5-Day Yoga & Hawan Retreat Schedule (Feb 28 - Mar 3, 2025)",
-    "text": "Join us in Rishikesh for a transformative 5-day retreat on the sacred occasion of Basant Panchami. This retreat will help you reconnect with your mind, body, and spirit while immersing in the healing energies of the Ganges River. Each day is carefully designed to guide you through yoga, meditation, spiritual practices, and personal growth.",
-    "days": [
-      {
-        "day": "Day 1 - Feb 28, 2025",
-        "activities": [
-          "Welcome & Check-in",
-          "Introduction to Retreat & Welcome Dinner",
-          "Guided Meditation by the Ganges River"
-        ]
-      },
-      {
-        "day": "Day 2 - Mar 1, 2025",
-        "activities": [
-          "Morning Yoga (Gentle Asanas)",
-          "Breakfast",
-          "Meditation & Mindfulness Workshop",
-          "Lunch & Rest",
-          "Afternoon Yoga (Advanced Asanas)",
-          "Evening Hawan Ceremony (Fire Ritual)",
-          "Group Reflection and Dinner"
-        ]
-      },
-      {
-        "day": "Day 3 - Mar 2, 2025",
-        "activities": [
-          "Morning Yoga (Vinyasa Flow)",
-          "Breakfast",
-          "Yoga Philosophy Workshop",
-          "Lunch",
-          "Rest and Free Time",
-          "Evening Meditation & Relaxation Yoga",
-          "Dinner & Group Sharing"
-        ]
-      },
-      {
-        "day": "Day 4 - Mar 3, 2025 (Basant Panchami)",
-        "activities": [
-          "Early Morning Pranayama (Breathwork)",
-          "Breakfast",
-          "Special Basant Panchami Hawan Ceremony",
-          "Group Discussion on Renewal & Growth",
-          "Lunch",
-          "Nature Walk or Spiritual Hiking",
-          "Evening Yoga (Restorative & Gentle)",
-          "Dinner & Bonfire Ceremony"
-        ]
-      },
-      {
-        "day": "Day 5 - Mar 3, 2025 (Closing Day)",
-        "activities": [
-          "Early Morning Yoga (Flow and Relaxation)",
-          "Breakfast",
-          "Closing Ceremony and Blessings",
-          "Check-out and Departure"
-        ]
-      }
-    ]
-  }
-  
+  "title": "5-Day Basant Ritotsava Schedule (January 29, 2025 – February 2, 2025)",
+  "text": "Join us in Rishikesh for a transformative 5-day retreat on the sacred occasion of Basant Panchami. This retreat will help you reconnect with your mind, body, and spirit while immersing in the healing energies of the Ganges River. Each day is carefully designed to guide you through yoga, meditation, spiritual practices, and personal growth.",
+  "days": [
+    {
+      "day": "Day 1 - 29-Jan-2025",
+      "activities": [
+        {
+          "startTime": "5:30 AM",
+          "duration": "30 Mins",
+          "activity": "Wakeup Call"
+        },
+        {
+          "startTime": "6:00 AM",
+          "duration": "2 Hours",
+          "activity": "Yoga Session - Level 1\nExhalation for Calming the Mind\nInhalation for Energizing the Body\nBalance, Concentration, and Immersion\nBreath in Asana"
+        },
+        {
+          "startTime": "8:00 AM",
+          "duration": "1 Hour",
+          "activity": "Yagya"
+        },
+        {
+          "startTime": "9:00 AM",
+          "duration": "1 Hour",
+          "activity": "Breakfast Prasad"
+        },
+        {
+          "startTime": "10:00 AM",
+          "duration": "1.5 Hours",
+          "activity": "Matrika Sadhana"
+        },
+        {
+          "startTime": "11:30 AM",
+          "duration": "15 Mins",
+          "activity": "Tea Break"
+        },
+        {
+          "startTime": "11:45 AM",
+          "duration": "1.15 Hours",
+          "activity": "Bharti Vidya"
+        },
+        {
+          "startTime": "1:00 PM",
+          "duration": "1 Hour",
+          "activity": "Lunch Prasad"
+        },
+        {
+          "startTime": "2:00 PM",
+          "duration": "1 Hour",
+          "activity": "Rest"
+        },
+        {
+          "startTime": "3:00 PM",
+          "duration": "1.5 Hours",
+          "activity": "Yoga Nidra"
+        },
+        {
+          "startTime": "4:30 PM",
+          "duration": "30 Mins",
+          "activity": "Tea Break"
+        },
+        {
+          "startTime": "5:00 PM",
+          "duration": "1 Hour",
+          "activity": "Group Discussion"
+        },
+        {
+          "startTime": "6:00 PM",
+          "duration": "1 Hour",
+          "activity": "Satsang & Bhajan"
+        },
+        {
+          "startTime": "7:00 PM",
+          "duration": "1 Hour",
+          "activity": "Dinner Prasad"
+        },
+        {
+          "startTime": "8:00 PM",
+          "duration": "",
+          "activity": "Day Session Ends for Personal Time"
+        }
+      ]
+    },
+    {
+      "day": "Day 2 - 30-Jan-2025",
+      "activities": [
+        {
+          "startTime": "5:30 AM",
+          "duration": "30 Mins",
+          "activity": "Wakeup Call"
+        },
+        {
+          "startTime": "6:00 AM",
+          "duration": "2 Hours",
+          "activity": "Yoga Session - Level 2\nExhalation for Calming the Mind\nInhalation for Energizing the Body\nBalance, Concentration, and Immersion\nBreath in Asana"
+        },
+        {
+          "startTime": "8:00 AM",
+          "duration": "1 Hour",
+          "activity": "Yagya"
+        },
+        {
+          "startTime": "9:00 AM",
+          "duration": "1 Hour",
+          "activity": "Breakfast Prasad"
+        },
+        {
+          "startTime": "10:00 AM",
+          "duration": "1.5 Hours",
+          "activity": "Matrika Sadhana"
+        },
+        {
+          "startTime": "11:30 AM",
+          "duration": "15 Mins",
+          "activity": "Tea Break"
+        },
+        {
+          "startTime": "11:45 AM",
+          "duration": "1.15 Hours",
+          "activity": "Sharda Vidya"
+        },
+        {
+          "startTime": "1:00 PM",
+          "duration": "1 Hour",
+          "activity": "Lunch Prasad"
+        },
+        {
+          "startTime": "2:00 PM",
+          "duration": "1 Hour",
+          "activity": "Rest"
+        },
+        {
+          "startTime": "3:00 PM",
+          "duration": "1.5 Hours",
+          "activity": "Yoga Nidra"
+        },
+        {
+          "startTime": "4:30 PM",
+          "duration": "30 Mins",
+          "activity": "Tea Break"
+        },
+        {
+          "startTime": "5:00 PM",
+          "duration": "1 Hour",
+          "activity": "Group Discussion"
+        },
+        {
+          "startTime": "6:00 PM",
+          "duration": "1 Hour",
+          "activity": "Satsang & Bhajan"
+        },
+        {
+          "startTime": "7:00 PM",
+          "duration": "1 Hour",
+          "activity": "Dinner Prasad"
+        },
+        {
+          "startTime": "8:00 PM",
+          "duration": "",
+          "activity": "Day Session Ends for Personal Time"
+        }
+      ]
+    },
+    {
+      "day": "Day 3 - 31-Jan-2025",
+      "activities": [
+        {
+          "startTime": "5:30 AM",
+          "duration": "30 Mins",
+          "activity": "Wakeup Call"
+        },
+        {
+          "startTime": "6:00 AM",
+          "duration": "2 Hours",
+          "activity": "Yoga Session - Level 3\nExhalation for Calming the Mind\nInhalation for Energizing the Body\nBalance, Concentration, and Immersion\nBreath in Asana"
+        },
+        {
+          "startTime": "8:00 AM",
+          "duration": "1 Hour",
+          "activity": "Yagya"
+        },
+        {
+          "startTime": "9:00 AM",
+          "duration": "1 Hour",
+          "activity": "Breakfast Prasad"
+        },
+        {
+          "startTime": "10:00 AM",
+          "duration": "1.5 Hours",
+          "activity": "Matrika Sadhana"
+        },
+        {
+          "startTime": "11:30 AM",
+          "duration": "15 Mins",
+          "activity": "Tea Break"
+        },
+        {
+          "startTime": "11:45 AM",
+          "duration": "1.15 Hours",
+          "activity": "Gayatri Vidya"
+        },
+        {
+          "startTime": "1:00 PM",
+          "duration": "1 Hour",
+          "activity": "Lunch Prasad"
+        },
+        {
+          "startTime": "2:00 PM",
+          "duration": "1 Hour",
+          "activity": "Rest"
+        },
+        {
+          "startTime": "3:00 PM",
+          "duration": "1.5 Hours",
+          "activity": "Yoga Nidra"
+        },
+        {
+          "startTime": "4:30 PM",
+          "duration": "30 Mins",
+          "activity": "Tea Break"
+        },
+        {
+          "startTime": "5:00 PM",
+          "duration": "1 Hour",
+          "activity": "Group Discussion"
+        },
+        {
+          "startTime": "6:00 PM",
+          "duration": "1 Hour",
+          "activity": "Satsang & Bhajan"
+        },
+        {
+          "startTime": "7:00 PM",
+          "duration": "1 Hour",
+          "activity": "Dinner Prasad"
+        },
+        {
+          "startTime": "8:00 PM",
+          "duration": "",
+          "activity": "Day Session Ends for Personal Time"
+        }
+      ]
+    },
+    {
+      "day": "Day 4 - 1-Feb-2025",
+      "activities": [
+        {
+          "startTime": "5:30 AM",
+          "duration": "30 Mins",
+          "activity": "Wakeup Call"
+        },
+        {
+          "startTime": "6:00 AM",
+          "duration": "2 Hours",
+          "activity": "Yoga Session - Level 4\nExhalation for Calming the Mind\nInhalation for Energizing the Body\nBalance, Concentration, and Immersion\nBreath in Asana"
+        },
+        {
+          "startTime": "8:00 AM",
+          "duration": "1 Hour",
+          "activity": "Yagya"
+        },
+        {
+          "startTime": "9:00 AM",
+          "duration": "1 Hour",
+          "activity": "Breakfast Prasad"
+        },
+        {
+          "startTime": "10:00 AM",
+          "duration": "1.5 Hours",
+          "activity": "Matrika Sadhana"
+        },
+        {
+          "startTime": "11:30 AM",
+          "duration": "15 Mins",
+          "activity": "Tea Break"
+        },
+        {
+          "startTime": "11:45 AM",
+          "duration": "1.15 Hours",
+          "activity": "Savitri Vidya"
+        },
+        {
+          "startTime": "1:00 PM",
+          "duration": "1 Hour",
+          "activity": "Lunch Prasad"
+        },
+        {
+          "startTime": "2:00 PM",
+          "duration": "1 Hour",
+          "activity": "Rest"
+        },
+        {
+          "startTime": "3:00 PM",
+          "duration": "1.5 Hours",
+          "activity": "Yoga Nidra"
+        },
+        {
+          "startTime": "4:30 PM",
+          "duration": "30 Mins",
+          "activity": "Tea Break"
+        },
+        {
+          "startTime": "5:00 PM",
+          "duration": "1 Hour",
+          "activity": "Group Discussion"
+        },
+        {
+          "startTime": "6:00 PM",
+          "duration": "1 Hour",
+          "activity": "Satsang & Bhajan"
+        },
+        {
+          "startTime": "7:00 PM",
+          "duration": "1 Hour",
+          "activity": "Dinner Prasad"
+        },
+        {
+          "startTime": "8:00 PM",
+          "duration": "",
+          "activity": "Day Session Ends for Personal Time"
+        }
+      ]
+    },
+    {
+      "day": "Day 5 - 2-Feb-2025",
+      "activities": [
+        {
+          "startTime": "5:30 AM",
+          "duration": "30 Mins",
+          "activity": "Wakeup Call"
+        },
+        {
+          "startTime": "6:00 AM",
+          "duration": "2 Hours",
+          "activity": "Yoga Session\nYoga for Better Sleep"
+        },
+        {
+          "startTime": "8:00 AM",
+          "duration": "1 Hour",
+          "activity": "Yagya"
+        },
+        {
+          "startTime": "9:00 AM",
+          "duration": "1 Hour",
+          "activity": "Breakfast Prasad"
+        },
+        {
+          "startTime": "10:00 AM",
+          "duration": "1.5 Hours",
+          "activity": "Matrika Sadhana"
+        },
+        {
+          "startTime": "11:30 AM",
+          "duration": "15 Mins",
+          "activity": "Tea Break"
+        },
+        {
+          "startTime": "11:45 AM",
+          "duration": "1.15 Hours",
+          "activity": "Brahmani Vidya"
+        },
+        {
+          "startTime": "1:00 PM",
+          "duration": "1 Hour",
+          "activity": "Lunch Prasad"
+        },
+        {
+          "startTime": "2:00 PM",
+          "duration": "1 Hour",
+          "activity": "Rest"
+        },
+        {
+          "startTime": "3:00 PM",
+          "duration": "1.5 Hours",
+          "activity": "Yoga Nidra"
+        },
+        {
+          "startTime": "4:30 PM",
+          "duration": "30 Mins",
+          "activity": "Tea Break"
+        },
+        {
+          "startTime": "5:00 PM",
+          "duration": "1 Hour",
+          "activity": "Group Discussion"
+        },
+        {
+          "startTime": "6:00 PM",
+          "duration": "1 Hour",
+          "activity": "Satsang & Bhajan"
+        },
+        {
+          "startTime": "7:00 PM",
+          "duration": "1 Hour",
+          "activity": "Dinner Prasad"
+        },
+        {
+          "startTime": "8:00 PM",
+          "duration": "",
+          "activity": "Day Session Ends for Personal Time"
+        }
+      ]
+    }
+  ]
+}

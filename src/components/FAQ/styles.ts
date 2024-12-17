@@ -18,7 +18,6 @@ export const FAQTitle = styled.h2`
   text-align: center;
   margin-bottom: 3rem;
   font-family: "Motiva Sans", sans-serif;
-  color: #333;
 `;
 
 // Wrapper for each FAQ item (question and answer)
@@ -37,17 +36,16 @@ export const FAQItemWrapper = styled.div`
 // The clickable question styling
 export const Question = styled.div`
   font-size: 1.25rem;
-  font-weight: bold;
   padding: 1.2rem;
   cursor: pointer;
-  color: #2e8b57;
+  color: #09326C
   background-color: #f7f7f7;
   border-radius: 8px;
   transition: background-color 0.3s ease, color 0.3s ease;
 
   &:hover {
     background-color: #e2e2e2;
-    color: #006400;
+    color: #09326C;
   }
 `;
 

@@ -1,0 +1,50 @@
+{
+    "testimonials": [
+      {
+        "name": "Manu Gupta",
+        "content": "This retreat was life-changing! I feel rejuvenated and more connected to myself.",
+        "date": "2024-07-19",
+        "rating": 5,
+        "location": "Amroha, India"
+      },
+      {
+        "name": "Manisha",
+        "content": "The yoga sessions were amazing, and the instructors were very supportive.",
+        "date": "2023-09-15",
+        "rating": 4,
+        "location": "Noida, UP"
+      },
+      {
+        "name": "Shashank",
+        "content": "I loved the peaceful environment and the sense of community. Highly recommend!",
+        "date": "2023-08-20",
+        "rating": 5,
+        "imageUrl": "/img/testimonials/emily_johnson.jpg",
+        "location": "Hyderabad, India"
+      },
+      {
+        "name": "Shashank",
+        "content": "I loved the peaceful environment and the sense of community. Highly recommend!",
+        "date": "2023-08-20",
+        "rating": 5,
+        "imageUrl": "/img/testimonials/emily_johnson.jpg",
+        "location": "Hyderabad, India"
+      },
+      {
+        "name": "Shashank",
+        "content": "I loved the peaceful environment and the sense of community. Highly recommend!",
+        "date": "2023-08-20",
+        "rating": 5,
+        "imageUrl": "/img/testimonials/emily_johnson.jpg",
+        "location": "Hyderabad, India"
+      },
+      {
+        "name": "Shashank",
+        "content": "I loved the peaceful environment and the sense of community. Highly recommend!",
+        "date": "2023-08-20",
+        "rating": 5,
+        "imageUrl": "/img/testimonials/emily_johnson.jpg",
+        "location": "Hyderabad, India"
+      }
+    ]
+  }

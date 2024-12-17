@@ -4,6 +4,7 @@ import { withTranslation, TFunction } from "react-i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
+import HeroBaner from "../HeroBaner"; // Import the HeroBanner component
 import {
   HeaderSection,
   LogoContainer,
@@ -87,6 +88,7 @@ const Header = ({ t }: { t: TFunction }) => {
           <MenuItem />
         </Drawer>
       </Container>
+      <HeroBaner /> {/* Include the HeroBanner component */}
     </HeaderSection>
   );
 };
