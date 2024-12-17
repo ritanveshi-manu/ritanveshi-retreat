@@ -16,7 +16,7 @@ const fadeInUp = keyframes`
 export const AboutRetreatWrapper = styled.div`
   padding: 50px 0;
   text-align: center;
-  background-color: transparent; /* Remove the off-white background */
+  background-color: #DCFFF1; /* Remove the off-white background */
 `;
 
 export const Title = styled.h2`

@@ -9,4 +9,5 @@ export interface AboutRetreatProps {
   text: string;
   sections: Section[];
   images?: string[];
+  id: string;
 }

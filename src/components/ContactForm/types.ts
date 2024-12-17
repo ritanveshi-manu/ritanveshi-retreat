@@ -9,9 +9,10 @@ export interface ValidationTypeProps {
   type: keyof IValues;
 }
 
+import { TFunction } from "react-i18next";
 export interface ContactProps {
   title: string;
   content: string;
   id: string;
-  t: (key: string) => string;
+  t: TFunction;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { RetreatScheduleProps } from "./types";
-import { Container, DaySchedule, DayTitle, ActivitiesList, ActivityItem } from "./styles";  // Import styled components
+import { Container, DaySchedule, DayTitle, ActivitiesList, TableHeader, ActivityItem, ActivityTime, ActivityDuration, ActivityDescription } from "./styles";  // Import styled components
 
 const RetreatSchedule: React.FC<RetreatScheduleProps> = ({ title, text, days, id }) => {
   return (
@@ -12,9 +12,22 @@ const RetreatSchedule: React.FC<RetreatScheduleProps> = ({ title, text, days, id
         <DaySchedule key={index}>
           <DayTitle>{day.day}</DayTitle>
           <ActivitiesList>
-            {day.activities.map((activity, activityIndex) => (
-              <ActivityItem key={activityIndex}>{activity}</ActivityItem>
-            ))}
+            <thead>
+              <tr>
+                <TableHeader>Start Time</TableHeader>
+                <TableHeader>Schedule</TableHeader>
+                <TableHeader>Activity</TableHeader>
+              </tr>
+            </thead>
+            <tbody>
+              {day.activities.map((activity, activityIndex) => (
+                <ActivityItem key={activityIndex} index={activityIndex}>
+                  <ActivityTime>{activity.startTime}</ActivityTime>
+                  <ActivityDuration>{activity.duration}</ActivityDuration>
+                  <ActivityDescription>{activity.activity}</ActivityDescription>
+                </ActivityItem>
+              ))}
+            </tbody>
           </ActivitiesList>
         </DaySchedule>
       ))}
