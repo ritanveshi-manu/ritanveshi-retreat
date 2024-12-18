@@ -2,8 +2,6 @@ import React from "react";
 import { TestimonialsWrapper, TestimonialsContainer, TestimonialItem, TestimonialText, TestimonialAuthor, TestimonialDate, TestimonialRating, TestimonialImage, TestimonialLocation } from "./styles";
 import { TestimonialsProps } from "./types";
 
-const defaultImage = "default_profile.svg"; // Path to the default image
-
 const Testimonials: React.FC<TestimonialsProps> = ({ testimonials }) => {
   return (
     <TestimonialsWrapper>
@@ -12,7 +10,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ testimonials }) => {
         {testimonials.map((testimonial, index) => (
           <TestimonialItem key={index}>
             <TestimonialImage
-              src={testimonial.imageUrl || defaultImage}
+              src={testimonial.imageUrl || `${process.env.PUBLIC_URL}/img/svg/default_profile.svg`}
               alt={testimonial.name}
             />
             <TestimonialText>"{testimonial.content}"</TestimonialText>
