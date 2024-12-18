@@ -1,4 +1,16 @@
 {
-    "title": "Ready to Transform?",
-    "text": "Our Yoga and Hawan Retreat in Rishikesh offers a unique opportunity to deepen your practice, experience spiritual renewal through the sacred Hawan, and embrace new beginnings during Basant Panchami.\n Have questions or want more details? Fill out the form below, and we’ll get back to you shortly."
+  "leftSection": {
+    "title": "Reserve Your Spot Today",
+    "highlights": [
+      "Limited Seats Available – Secure your place in this transformative experience.",
+      "Pricing: Starting at INR 20,000/- (including all meals, accommodation, and sessions)."
+    ],
+    "contact": {
+      "phone": "+91 8800882664",
+      "email": "retreat@ritanveshi.org"
+    },
+    "callToAction": "Take the First Step Towards a Balanced Life",
+    "description": "Don’t let stress define your life. Join us in Rishikesh this January and rediscover the joy of living. Your path to inner peace starts here.",
+    "buttonText": "Book Now"
+  }
 }

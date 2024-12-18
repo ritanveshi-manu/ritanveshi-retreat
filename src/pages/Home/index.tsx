@@ -16,6 +16,7 @@ import LocationContent from "../../content/LocationContent.json";
 import AboutRetreat from "../../components/AboutRetreat";
 import Testimonials from "../../components/Testimonials";
 import Speakers from "../../components/Speakers";
+import FloatingButton from "./FloatingButton"; // Import FloatingButton
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -90,12 +91,8 @@ const Home = () => {
         id="product"
       />
       <FAQ faqs={FAQContent.faqs} />
-      <Contact
-        key="contact"
-        title={ContactContent.title}
-        content={ContactContent.text}
-        id="contact"
-      />
+      <Contact key="contact" id="contact" />
+      <FloatingButton /> {/* Add the FloatingButton component */}
     </Container>
   );
 };

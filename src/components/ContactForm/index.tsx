@@ -1,72 +1,65 @@
-import { Row, Col } from "antd";
-import { withTranslation } from "react-i18next";
-import { Slide } from "react-awesome-reveal";
-import { ContactProps, ValidationTypeProps } from "./types";
-import { useForm } from "../../common/utils/useForm";
-import validate from "../../common/utils/validationRules";
+import { Fade } from "react-awesome-reveal";
 import { Button } from "../../common/Button";
-import Block from "../Block";
-import Input from "../../common/Input";
-import TextArea from "../../common/TextArea";
-import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
+import ContactContent from "../../content/ContactContent.json";
+import { Row, Col } from "antd";
+import {
+  ContactContainer,
+  ContentWrapper,
+  Highlight,
+  FormContainer,
+  ButtonWrapper,
+  StyledRow,
+} from "./styles";
 
-const Contact = ({ title, content, id, t }: ContactProps) => {
-  const { values, errors, handleChange, handleSubmit } = useForm(validate);
+const Contact = ({ id }: { id: string }) => {
+  const { leftSection } = ContactContent;
 
-  const ValidationType = ({ type }: ValidationTypeProps) => {
-    const ErrorMessage = errors[type as keyof typeof errors];
-    return <Span>{ErrorMessage}</Span>;
+  const scrollToForm = () => {
+    const formElement = document.getElementById("booking-form");
+    if (formElement) {
+      formElement.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
     <ContactContainer id={id}>
-      <Row justify="space-between" align="middle">
-        <Col lg={12} md={11} sm={24} xs={24}>
-          <Slide direction="left" triggerOnce>
-            <Block title={title} content={content} />
-          </Slide>
+      <StyledRow justify="space-between" align="middle">
+        <Col lg={11} md={11} sm={24} xs={24}>
+          <Fade direction="left" triggerOnce>
+            <ContentWrapper>
+              <h2>{leftSection.title}</h2>
+              {leftSection.highlights.map((point, index) => (
+                <Highlight key={index}>{point}</Highlight>
+              ))}
+              <p>Contact: {leftSection.contact.phone} | {leftSection.contact.email}</p>
+              <h4>{leftSection.callToAction}</h4>
+              <p>{leftSection.description}</p>
+              {/* <ButtonWrapper>
+                <Button onClick={scrollToForm}>{leftSection.buttonText}</Button>
+              </ButtonWrapper> */}
+            </ContentWrapper>
+          </Fade>
         </Col>
-        <Col lg={12} md={12} sm={24} xs={24}>
-          <Slide direction="right" triggerOnce>
-            <FormGroup autoComplete="off" onSubmit={handleSubmit}>
-              <Col span={24}>
-                <Input
-                  type="text"
-                  name="name"
-                  placeholder="Your Name"
-                  value={values.name || ""}
-                  onChange={handleChange}
-                />
-                <ValidationType type="name" />
-              </Col>
-              <Col span={24}>
-                <Input
-                  type="text"
-                  name="email"
-                  placeholder="Your Email"
-                  value={values.email || ""}
-                  onChange={handleChange}
-                />
-                <ValidationType type="email" />
-              </Col>
-              <Col span={24}>
-                <TextArea
-                  placeholder="Your Message"
-                  value={values.message || ""}
-                  name="message"
-                  onChange={handleChange}
-                />
-                <ValidationType type="message" />
-              </Col>
-              <ButtonContainer>
-                <Button name="submit">{t("Submit")}</Button>
-              </ButtonContainer>
-            </FormGroup>
-          </Slide>
+        <Col lg={11} md={11} sm={24} xs={24}>
+          <Fade direction="right" triggerOnce>
+            <ContentWrapper id="booking-form">
+              <iframe
+                src="https://forms.monday.com/forms/embed/869f3dca5521ab374fcf099485f91ade?r=use1"
+                style={{
+                  border: 0,
+                  boxShadow: "0px 4px 16px rgba(0, 0, 0, 0.1)",
+                  borderRadius: "8px",
+                  width: "100%",
+                  height: "100%",
+                }}
+                title="Book Now Form"
+              ></iframe>
+            </ContentWrapper>
+          </Fade>
         </Col>
-      </Row>
+      </StyledRow>
     </ContactContainer>
   );
 };
 
-export default withTranslation()(Contact);
+export default Contact;
