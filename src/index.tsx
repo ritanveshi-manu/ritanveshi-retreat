@@ -19,7 +19,7 @@ import i18n from "./translation";
 // };
 
 const App = () => (
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="/ritanveshi-retreat">
     <I18nextProvider i18n={i18n}>
       <Router />
     </I18nextProvider>
