@@ -29,6 +29,7 @@ export const FAQItemWrapper = styled.div`
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
 
   &:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -43,6 +44,9 @@ export const Question = styled.div`
   color: #09326C;
   background-color: #f7f7f7;
   border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   transition: background-color 0.3s ease, color 0.3s ease;
 
   &:hover {
@@ -60,12 +64,30 @@ export const Answer = styled.div`
   border-top: 1px solid #ddd;
   border-radius: 8px;
   margin-top: 1rem;
+  transition: max-height 0.3s ease;
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  strong {
+    font-weight: bold;
+  }
 `;
 
-// Row container for FAQ items (if you want to add grid structure later)
-export const FAQRow = styled(Row)`
-  flex-direction: ${({ direction }: { direction: string }) =>
-    direction === "left" ? "row" : "row-reverse"};
+// Icon wrapper for the expand/collapse icons
+export const IconWrapper = styled.div`
+  display: flex;
+  align-items: center;
 `;
 
 // A container for the FAQ list wrapper if you need a specific width
