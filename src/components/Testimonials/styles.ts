@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const TestimonialsWrapper = styled.div`
   padding: 50px 0;
   text-align: center;
-  background-color: transparent; /* Remove the off-white background */
+  background-color: #FFF3EB;
+  margin: 2rem auto;
+
 `;
 
 export const TestimonialsContainer = styled.div`

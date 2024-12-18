@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/rough_codes
 /.pnp
 .pnp.js
 

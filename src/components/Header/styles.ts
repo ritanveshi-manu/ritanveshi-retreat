@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
+import { Row } from "antd";
 
 export const HeaderSection = styled("header")`
   padding: 1rem 0.5rem;
@@ -92,4 +93,19 @@ export const Span = styled("span")`
     text-underline-position: under;
     text-decoration: rgb(255, 130, 92) wavy underline;
   }
+`;
+
+export const ContentSection = styled("section")`
+  position: relative;
+  padding: 10rem 2rem 8rem; /* Added horizontal padding for margin */
+  background-color: #E7F9FF;
+  box-sizing: border-box; /* Ensures padding doesn't overflow */
+
+  @media only screen and (max-width: 1024px) {
+    padding: 10rem 2rem 10rem;
+  }
+`;
+
+export const Content = styled("p")`
+  margin: 1.5rem 0 2rem 0;
 `;

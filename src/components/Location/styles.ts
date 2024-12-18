@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const LocationWrapper = styled.div`
   padding: 50px 0;
   text-align: center;
+  background-color: #FEDEC8;
 `;
 
 export const LocationTitle = styled.h2`
@@ -40,4 +41,5 @@ export const MapWrapper = styled.div`
   h3 {
     margin-bottom: 20px;
   }
+  width: 100%;
 `;

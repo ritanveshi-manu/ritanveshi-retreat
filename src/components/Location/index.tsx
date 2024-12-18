@@ -52,19 +52,13 @@ const Location: React.FC<LocationProps> = ({
 
       <MapWrapper>
         <h3>Find us on the Map</h3>
-        <iframe
-          title="Rishikesh Location"
-          src={googleMapUrl}
-          width="100%"
-          height="450"
-          frameBorder="0"
-          style={{
-            border: 0,
-            borderRadius: "10px",
-            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-          }}
-          allowFullScreen
-        />
+        <iframe 
+        title="Auroville Ashram, Rishikesh, Uttarakhand"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110548.00008964975!2d78.13076119711461!3d30.018922273819804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39093f33bab68a9d%3A0x2b8e46e26418955c!2sAuro%20Valley%20Ashram%20Raiwala%20Rishikesh!5e0!3m2!1sen!2sin!4v1734542238156!5m2!1sen!2sin" 
+        width="100%" 
+        height="450" 
+        style={{ border: "1px" }} 
+        allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </MapWrapper>
     </LocationWrapper>
   );
