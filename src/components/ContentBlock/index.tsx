@@ -60,11 +60,12 @@ const ContentBlock = ({
                         },
                         id: number
                       ) => {
+                        const targetId = item.title === "Explore" ? "about" : "contact";
                         return (
                           <Button
                             key={id}
                             color={item.color}
-                            onClick={() => scrollTo("contact")}
+                            onClick={() => scrollTo(targetId)}
                           >
                             {t(item.title)}
                           </Button>
