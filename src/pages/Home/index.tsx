@@ -91,7 +91,6 @@ const Home = () => {
         id="product"
       />
       <FAQ faqs={FAQContent.faqs} />
-      <Contact key="contact" id="contact" />
       <FloatingButton /> {/* Add the FloatingButton component */}
     </Container>
   );
