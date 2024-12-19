@@ -47,8 +47,6 @@ const Contact = ({ id }: { id: string }) => {
                 src="https://forms.monday.com/forms/embed/869f3dca5521ab374fcf099485f91ade?r=use1"
                 style={{
                   border: 0,
-                  boxShadow: "0px 4px 16px rgba(0, 0, 0, 0.1)",
-                  borderRadius: "8px",
                   width: "100%",
                   height: "100%",
                 }}

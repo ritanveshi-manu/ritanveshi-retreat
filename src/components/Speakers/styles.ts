@@ -9,11 +9,20 @@ export const SpeakersWrapper = styled.div`
   max-width: 800px; /* Set a maximum width */
   border-radius: 8px; /* Optional: Add border radius for rounded corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for better appearance */
+
+  @media only screen and (max-width: 768px) {
+    width: 90%; /* Adjust width for mobile devices */
+    padding: 30px 10px; /* Adjust padding for mobile devices */
+  }
 `;
 
 export const Title = styled.h2`
   font-size: 2.5rem;
   margin-bottom: 20px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 2rem; /* Adjust font size for mobile devices */
+  }
 `;
 
 export const SpeakerList = styled.div`
@@ -38,29 +47,50 @@ export const SpeakerItem = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center; /* Center align items */
+
+  @media only screen and (max-width: 768px) {
+    flex: 0 0 100%; /* Adjust width for mobile devices */
+    padding: 15px; /* Adjust padding for mobile devices */
+  }
 `;
 
 export const SpeakerName = styled.h3`
   font-size: 1.5rem;
   margin-bottom: 10px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1.25rem; /* Adjust font size for mobile devices */
+  }
 `;
 
 export const SpeakerExpertise = styled.p`
   font-size: 1.2rem;
   color: #888;
   margin-bottom: 10px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1rem; /* Adjust font size for mobile devices */
+  }
 `;
 
 export const SpeakerLocation = styled.p`
   font-size: 1rem;
   color: #888;
   margin-bottom: 10px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 0.9rem; /* Adjust font size for mobile devices */
+  }
 `;
 
 export const SpeakerDescription = styled.p`
   font-size: 1rem;
   color: #555;
   text-align: justify; /* Justify the text */
+
+  @media only screen and (max-width: 768px) {
+    font-size: 0.9rem; /* Adjust font size for mobile devices */
+  }
 `;
 
 export const SpeakerImage = styled.img`
