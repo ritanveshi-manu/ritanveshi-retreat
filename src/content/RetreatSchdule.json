@@ -6,39 +6,9 @@
       "day": "Day 1: 29-Jan-2025",
       "activities": [
         {
-          "startTime": "5:30 AM",
-          "duration": "30 Mins",
-          "activity": "Wakeup Call"
-        },
-        {
-          "startTime": "6:00 AM",
-          "duration": "2 Hours",
-          "activity": "Yoga Session - Level 1\nExhalation for Calming the Mind\nInhalation for Energizing the Body\nBalance, Concentration, and Immersion\nBreath in Asana"
-        },
-        {
-          "startTime": "8:00 AM",
+          "startTime": "12:00 PM",
           "duration": "1 Hour",
-          "activity": "Yagya"
-        },
-        {
-          "startTime": "9:00 AM",
-          "duration": "1 Hour",
-          "activity": "Breakfast Prasad"
-        },
-        {
-          "startTime": "10:00 AM",
-          "duration": "1.5 Hours",
-          "activity": "Matrika Sadhana"
-        },
-        {
-          "startTime": "11:30 AM",
-          "duration": "15 Mins",
-          "activity": "Tea Break"
-        },
-        {
-          "startTime": "11:45 AM",
-          "duration": "1.15 Hours",
-          "activity": "Bharti Vidya"
+          "activity": "Arrivals & Checkins"
         },
         {
           "startTime": "1:00 PM",
@@ -47,38 +17,33 @@
         },
         {
           "startTime": "2:00 PM",
-          "duration": "1 Hour",
-          "activity": "Rest"
-        },
-        {
-          "startTime": "3:00 PM",
           "duration": "1.5 Hours",
-          "activity": "Yoga Nidra"
+          "activity": "Bharti Vidya"
         },
         {
-          "startTime": "4:30 PM",
+          "startTime": "3:30 PM",
           "duration": "30 Mins",
-          "activity": "Tea Break"
+          "activity": "High Tea"
+        },
+        {
+          "startTime": "4:00 PM",
+          "duration": "1 Hour",
+          "activity": "Break"
         },
         {
           "startTime": "5:00 PM",
           "duration": "1 Hour",
-          "activity": "Group Discussion"
+          "activity": "Movements for grounding that lead to meditation."
         },
         {
-          "startTime": "6:00 PM",
-          "duration": "1 Hour",
-          "activity": "Satsang & Bhajan"
+          "startTime": "6:15 PM",
+          "duration": "45 Mins",
+          "activity": "Bonfire & Group Conversations"
         },
         {
           "startTime": "7:00 PM",
           "duration": "1 Hour",
           "activity": "Dinner Prasad"
-        },
-        {
-          "startTime": "8:00 PM",
-          "duration": "",
-          "activity": "Day Session Ends for Personal Time"
         }
       ]
     },
@@ -86,24 +51,24 @@
       "day": "Day 2: 30-Jan-2025",
       "activities": [
         {
-          "startTime": "5:30 AM",
-          "duration": "30 Mins",
-          "activity": "Wakeup Call"
-        },
-        {
           "startTime": "6:00 AM",
-          "duration": "2 Hours",
-          "activity": "Yoga Session - Level 2\nExhalation for Calming the Mind\nInhalation for Energizing the Body\nBalance, Concentration, and Immersion\nBreath in Asana"
+          "duration": "1 Hour",
+          "activity": "Asana & Pranayama Sessions - Level 1\nExhalation for Calming the Mind\nInhalation for Energizing the Body\nBalance, Concentration, and Immersion\nBreath in Asana"
         },
         {
-          "startTime": "8:00 AM",
+          "startTime": "7:00 AM",
           "duration": "1 Hour",
           "activity": "Yagya"
         },
         {
-          "startTime": "9:00 AM",
+          "startTime": "8:00 AM",
           "duration": "1 Hour",
           "activity": "Breakfast Prasad"
+        },
+        {
+          "startTime": "9:00 AM",
+          "duration": "1 Hour",
+          "activity": "Break"
         },
         {
           "startTime": "10:00 AM",
@@ -112,12 +77,12 @@
         },
         {
           "startTime": "11:30 AM",
-          "duration": "15 Mins",
-          "activity": "Tea Break"
+          "duration": "30 Mins",
+          "activity": "Break"
         },
         {
-          "startTime": "11:45 AM",
-          "duration": "1.15 Hours",
+          "startTime": "12:00 PM",
+          "duration": "1 Hour",
           "activity": "Sharda Vidya"
         },
         {
@@ -127,38 +92,33 @@
         },
         {
           "startTime": "2:00 PM",
-          "duration": "1 Hour",
-          "activity": "Rest"
-        },
-        {
-          "startTime": "3:00 PM",
           "duration": "1.5 Hours",
           "activity": "Yoga Nidra"
         },
         {
-          "startTime": "4:30 PM",
+          "startTime": "3:30 PM",
           "duration": "30 Mins",
-          "activity": "Tea Break"
+          "activity": "High Tea"
+        },
+        {
+          "startTime": "4:00 PM",
+          "duration": "1 Hour",
+          "activity": "Break"
         },
         {
           "startTime": "5:00 PM",
           "duration": "1 Hour",
-          "activity": "Group Discussion"
+          "activity": "Movements for a better health that lead to meditation."
         },
         {
-          "startTime": "6:00 PM",
-          "duration": "1 Hour",
-          "activity": "Satsang & Bhajan"
+          "startTime": "6:15 PM",
+          "duration": "45 Mins",
+          "activity": "Bonfire & Group Conversations"
         },
         {
           "startTime": "7:00 PM",
           "duration": "1 Hour",
           "activity": "Dinner Prasad"
-        },
-        {
-          "startTime": "8:00 PM",
-          "duration": "",
-          "activity": "Day Session Ends for Personal Time"
         }
       ]
     },
@@ -166,24 +126,24 @@
       "day": "Day 3: 31-Jan-2025",
       "activities": [
         {
-          "startTime": "5:30 AM",
-          "duration": "30 Mins",
-          "activity": "Wakeup Call"
-        },
-        {
           "startTime": "6:00 AM",
-          "duration": "2 Hours",
-          "activity": "Yoga Session - Level 3\nExhalation for Calming the Mind\nInhalation for Energizing the Body\nBalance, Concentration, and Immersion\nBreath in Asana"
+          "duration": "1 Hour",
+          "activity": "Asana & Pranayama Sessions - Level 2\nExhalation for Calming the Mind\nInhalation for Energizing the Body\nBalance, Concentration, and Immersion\nBreath in Asana"
         },
         {
-          "startTime": "8:00 AM",
+          "startTime": "7:00 AM",
           "duration": "1 Hour",
           "activity": "Yagya"
         },
         {
-          "startTime": "9:00 AM",
+          "startTime": "8:00 AM",
           "duration": "1 Hour",
           "activity": "Breakfast Prasad"
+        },
+        {
+          "startTime": "9:00 AM",
+          "duration": "1 Hour",
+          "activity": "Break"
         },
         {
           "startTime": "10:00 AM",
@@ -192,12 +152,12 @@
         },
         {
           "startTime": "11:30 AM",
-          "duration": "15 Mins",
-          "activity": "Tea Break"
+          "duration": "30 Mins",
+          "activity": "Break"
         },
         {
-          "startTime": "11:45 AM",
-          "duration": "1.15 Hours",
+          "startTime": "12:00 PM",
+          "duration": "1 Hour",
           "activity": "Gayatri Vidya"
         },
         {
@@ -207,38 +167,33 @@
         },
         {
           "startTime": "2:00 PM",
-          "duration": "1 Hour",
-          "activity": "Rest"
-        },
-        {
-          "startTime": "3:00 PM",
           "duration": "1.5 Hours",
           "activity": "Yoga Nidra"
         },
         {
-          "startTime": "4:30 PM",
+          "startTime": "3:30 PM",
           "duration": "30 Mins",
-          "activity": "Tea Break"
+          "activity": "High Tea"
+        },
+        {
+          "startTime": "4:00 PM",
+          "duration": "1 Hour",
+          "activity": "Break"
         },
         {
           "startTime": "5:00 PM",
           "duration": "1 Hour",
-          "activity": "Group Discussion"
+          "activity": "Movements for a healthier back that lead to meditation."
         },
         {
-          "startTime": "6:00 PM",
-          "duration": "1 Hour",
-          "activity": "Satsang & Bhajan"
+          "startTime": "6:15 PM",
+          "duration": "45 Mins",
+          "activity": "Bonfire & Group Conversations"
         },
         {
           "startTime": "7:00 PM",
           "duration": "1 Hour",
           "activity": "Dinner Prasad"
-        },
-        {
-          "startTime": "8:00 PM",
-          "duration": "",
-          "activity": "Day Session Ends for Personal Time"
         }
       ]
     },
@@ -246,24 +201,24 @@
       "day": "Day 4: 1-Feb-2025",
       "activities": [
         {
-          "startTime": "5:30 AM",
-          "duration": "30 Mins",
-          "activity": "Wakeup Call"
-        },
-        {
           "startTime": "6:00 AM",
-          "duration": "2 Hours",
-          "activity": "Yoga Session - Level 4\nExhalation for Calming the Mind\nInhalation for Energizing the Body\nBalance, Concentration, and Immersion\nBreath in Asana"
+          "duration": "1 Hour",
+          "activity": "Asana & Pranayama Sessions - Level 3\nExhalation for Calming the Mind\nInhalation for Energizing the Body\nBalance, Concentration, and Immersion\nBreath in Asana"
         },
         {
-          "startTime": "8:00 AM",
+          "startTime": "7:00 AM",
           "duration": "1 Hour",
           "activity": "Yagya"
         },
         {
-          "startTime": "9:00 AM",
+          "startTime": "8:00 AM",
           "duration": "1 Hour",
           "activity": "Breakfast Prasad"
+        },
+        {
+          "startTime": "9:00 AM",
+          "duration": "1 Hour",
+          "activity": "Break"
         },
         {
           "startTime": "10:00 AM",
@@ -272,12 +227,12 @@
         },
         {
           "startTime": "11:30 AM",
-          "duration": "15 Mins",
-          "activity": "Tea Break"
+          "duration": "30 Mins",
+          "activity": "Break"
         },
         {
-          "startTime": "11:45 AM",
-          "duration": "1.15 Hours",
+          "startTime": "12:00 PM",
+          "duration": "1 Hour",
           "activity": "Savitri Vidya"
         },
         {
@@ -287,38 +242,33 @@
         },
         {
           "startTime": "2:00 PM",
-          "duration": "1 Hour",
-          "activity": "Rest"
-        },
-        {
-          "startTime": "3:00 PM",
           "duration": "1.5 Hours",
           "activity": "Yoga Nidra"
         },
         {
-          "startTime": "4:30 PM",
+          "startTime": "3:30 PM",
           "duration": "30 Mins",
-          "activity": "Tea Break"
+          "activity": "High Tea"
+        },
+        {
+          "startTime": "4:00 PM",
+          "duration": "1 Hour",
+          "activity": "Break"
         },
         {
           "startTime": "5:00 PM",
           "duration": "1 Hour",
-          "activity": "Group Discussion"
+          "activity": "Movements for increasing pranic flow that lead to meditation."
         },
         {
-          "startTime": "6:00 PM",
-          "duration": "1 Hour",
-          "activity": "Satsang & Bhajan"
+          "startTime": "6:15 PM",
+          "duration": "45 Mins",
+          "activity": "Bonfire & Group Conversations"
         },
         {
           "startTime": "7:00 PM",
           "duration": "1 Hour",
           "activity": "Dinner Prasad"
-        },
-        {
-          "startTime": "8:00 PM",
-          "duration": "",
-          "activity": "Day Session Ends for Personal Time"
         }
       ]
     },
@@ -326,79 +276,34 @@
       "day": "Day 5: 2-Feb-2025",
       "activities": [
         {
-          "startTime": "5:30 AM",
-          "duration": "30 Mins",
-          "activity": "Wakeup Call"
-        },
-        {
           "startTime": "6:00 AM",
-          "duration": "2 Hours",
-          "activity": "Yoga Session\nYoga for Better Sleep"
+          "duration": "1 Hour",
+          "activity": "Asana & Pranayama Sessions - Level 4\nYoga for Better Sleep"
         },
         {
-          "startTime": "8:00 AM",
+          "startTime": "7:00 AM",
           "duration": "1 Hour",
           "activity": "Yagya"
         },
         {
-          "startTime": "9:00 AM",
-          "duration": "1 Hour",
+          "startTime": "8:00 AM",
+          "duration": "2 Hours",
           "activity": "Breakfast Prasad"
         },
         {
-          "startTime": "10:00 AM",
+          "startTime": "9:00 AM",
           "duration": "1.5 Hours",
-          "activity": "Matrika Sadhana"
-        },
-        {
-          "startTime": "11:30 AM",
-          "duration": "15 Mins",
-          "activity": "Tea Break"
-        },
-        {
-          "startTime": "11:45 AM",
-          "duration": "1.15 Hours",
           "activity": "Brahmani Vidya"
         },
         {
-          "startTime": "1:00 PM",
+          "startTime": "10:30 AM",
           "duration": "1 Hour",
-          "activity": "Lunch Prasad"
+          "activity": "Closing Ceremony"
         },
         {
-          "startTime": "2:00 PM",
-          "duration": "1 Hour",
-          "activity": "Rest"
-        },
-        {
-          "startTime": "3:00 PM",
-          "duration": "1.5 Hours",
-          "activity": "Yoga Nidra"
-        },
-        {
-          "startTime": "4:30 PM",
-          "duration": "30 Mins",
-          "activity": "Tea Break"
-        },
-        {
-          "startTime": "5:00 PM",
-          "duration": "1 Hour",
-          "activity": "Group Discussion"
-        },
-        {
-          "startTime": "6:00 PM",
-          "duration": "1 Hour",
-          "activity": "Satsang & Bhajan"
-        },
-        {
-          "startTime": "7:00 PM",
-          "duration": "1 Hour",
-          "activity": "Dinner Prasad"
-        },
-        {
-          "startTime": "8:00 PM",
+          "startTime": "11:30 AM",
           "duration": "",
-          "activity": "Day Session Ends for Personal Time"
+          "activity": "Checkout"
         }
       ]
     }
