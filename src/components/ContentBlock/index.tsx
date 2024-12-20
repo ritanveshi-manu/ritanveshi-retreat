@@ -1,7 +1,7 @@
 import { Row, Col } from "antd";
 import { Fade } from "react-awesome-reveal";
 import { withTranslation } from "react-i18next";
-
+import ReactMarkdown from "react-markdown";
 import { ContentBlockProps } from "./types";
 import { Button } from "../../common/Button";
 import { SvgIcon } from "../../common/SvgIcon";
@@ -14,6 +14,7 @@ import {
   MinPara,
   StyledRow,
   ButtonWrapper,
+  Title
 } from "./styles";
 
 const ContentBlock = ({
@@ -47,8 +48,10 @@ const ContentBlock = ({
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+              <Title>{t(title)}</Title>
+              <Content>
+                <ReactMarkdown>{t(content)}</ReactMarkdown>
+              </Content>
               {direction === "right" ? (
                 <ButtonWrapper>
                   {typeof button === "object" &&

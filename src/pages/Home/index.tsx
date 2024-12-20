@@ -1,4 +1,7 @@
-import { lazy, useEffect } from "react";
+import { lazy, useEffect, useState } from "react";
+import CookieConsent, { Cookies } from "react-cookie-consent"; // Import CookieConsent and Cookies
+import { Modal } from "antd";
+import ReactMarkdown from "react-markdown";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
@@ -17,6 +20,8 @@ import AboutRetreat from "../../components/AboutRetreat";
 import Testimonials from "../../components/Testimonials";
 import Speakers from "../../components/Speakers";
 import FloatingButton from "./FloatingButton"; // Import FloatingButton
+import { PolicyWrapper, Large, Title, MarkdownContent } from "../../components/Policy/styles";
+import policyContent from "../../content/PolicyContent.json"; // Import the policy content
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -25,6 +30,21 @@ const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
 const Home = () => {
+  const [modalVisible, setModalVisible] = useState(false);
+  const [modalTitle, setModalTitle] = useState("");
+  const [modalContent, setModalContent] = useState("");
+
+  const handlePolicyClick = (title: string, content: string) => {
+    setModalTitle(title);
+    setModalContent(content);
+    setModalVisible(true);
+  };
+
+  const clearCookieConsent = () => {
+    Cookies.remove("RitanveshiCookieConsent");
+    window.location.reload(); // Reload the page to show the consent banner again
+  };
+
   useEffect(() => {
     // Any initialization or cleanup code can go here
   }, []);
@@ -82,16 +102,41 @@ const Home = () => {
         id="mission"
       />
       <Testimonials testimonials={TestimonialsContent.testimonials} /> 
-      <ContentBlock
-        key="product"
-        direction="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
-        icon="waving.svg"
-        id="product"
-      />
       <FAQ faqs={FAQContent.faqs} />
       <FloatingButton /> {/* Add the FloatingButton component */}
+      <CookieConsent
+        location="bottom"
+        buttonText="I understand"
+        cookieName="RitanveshiCookieConsent"
+        style={{ background: "#2B373B" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+        expires={150}
+      >
+        This website uses cookies to enhance the user experience.{" "}
+        <a
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            handlePolicyClick(policyContent.privacyPolicy.title, policyContent.privacyPolicy.content);
+          }}
+          style={{ color: "#4e503b" }}
+        >
+          Learn more
+        </a>
+      </CookieConsent>
+      <Modal
+        visible={modalVisible}
+        title={modalTitle}
+        onCancel={() => setModalVisible(false)}
+        footer={null}
+      >
+        <MarkdownContent>
+          <ReactMarkdown>{modalContent}</ReactMarkdown>
+        </MarkdownContent>
+      </Modal>
+      {/* <button onClick={clearCookieConsent} style={{ position: 'fixed', bottom: '100px', right: '30px', zIndex: 1000 }}>
+        Clear Cookie Consent
+      </button> */}
     </Container>
   );
 };

@@ -6,7 +6,7 @@ export const ContentSection = styled("section")`
   padding: 10rem 2rem 8rem; /* Added horizontal padding for margin */
   background-color: #E7F9FF;
   box-sizing: border-box; /* Ensures padding doesn't overflow */
-
+  border-radius: 10px;
   @media only screen and (max-width: 1024px) {
     padding: 10rem 2rem 10rem;
   }
@@ -46,6 +46,11 @@ export const MinTitle = styled("h6")`
   text-transform: uppercase;
   color: #000;
   font-family: "Motiva Sans Light", sans-serif;
+`;
+
+export const Title = styled.h2`
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 `;
 
 export const MinPara = styled("p")`

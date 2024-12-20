@@ -1,11 +1,31 @@
-import React from "react";
-import { TestimonialsWrapper, TestimonialsContainer, TestimonialItem, TestimonialText, TestimonialAuthor, TestimonialDate, TestimonialRating, TestimonialImage, TestimonialLocation } from "./styles";
+import React, { useState } from "react";
+import { Modal } from "antd";
+import {
+  TestimonialsWrapper,
+  TestimonialsContainer,
+  TestimonialItem,
+  TestimonialText,
+  TestimonialAuthor,
+  TestimonialDate,
+  TestimonialRating,
+  TestimonialImage,
+  TestimonialLocation,
+  Title,
+} from "./styles";
 import { TestimonialsProps } from "./types";
 
 const Testimonials: React.FC<TestimonialsProps> = ({ testimonials }) => {
+  const [modalVisible, setModalVisible] = useState(false);
+  const [modalContent, setModalContent] = useState("");
+
+  const handleMoreClick = (content: string) => {
+    setModalContent(content);
+    setModalVisible(true);
+  };
+
   return (
     <TestimonialsWrapper>
-      <h2>Testimonials</h2>
+      <Title>Testimonials</Title>
       <TestimonialsContainer>
         {testimonials.map((testimonial, index) => (
           <TestimonialItem key={index}>
@@ -13,7 +33,9 @@ const Testimonials: React.FC<TestimonialsProps> = ({ testimonials }) => {
               src={testimonial.imageUrl || `${process.env.PUBLIC_URL}/img/svg/default_profile.svg`}
               alt={testimonial.name}
             />
-            <TestimonialText>"{testimonial.content}"</TestimonialText>
+            <TestimonialText data-fulltext={testimonial.content}>
+              {testimonial.content}
+            </TestimonialText>
             <TestimonialAuthor>{testimonial.name}</TestimonialAuthor>
             <TestimonialDate>{new Date(testimonial.date).toLocaleDateString()}</TestimonialDate>
             <TestimonialRating>Rating: {testimonial.rating} / 5</TestimonialRating>
@@ -21,6 +43,14 @@ const Testimonials: React.FC<TestimonialsProps> = ({ testimonials }) => {
           </TestimonialItem>
         ))}
       </TestimonialsContainer>
+      <Modal
+        visible={modalVisible}
+        title="Testimonial"
+        onCancel={() => setModalVisible(false)}
+        footer={null}
+      >
+        <p>{modalContent}</p>
+      </Modal>
     </TestimonialsWrapper>
   );
 };

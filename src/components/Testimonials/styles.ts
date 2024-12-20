@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
 export const TestimonialsWrapper = styled.div`
-  padding: 50px 0;
+  padding: 50px 20px;
   text-align: center;
   background-color: #FFF3EB;
   margin: 2rem auto;
-
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
 
 export const TestimonialsContainer = styled.div`
   display: flex;
   overflow-x: auto; /* Enable horizontal scrolling */
-  padding-bottom: 20px; /* Add some padding to avoid scrollbar overlap */
+  padding: 20px; /* Add padding */
   -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
   gap: 16px; /* Add some gap between items */
 `;
@@ -23,14 +24,40 @@ export const TestimonialItem = styled.div`
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
-  width: 300px; /* Set a fixed width for each testimonial item */
-  height: auto; /* Ensure the height adjusts based on content */
+  width: 350px; /* Increase the width for each testimonial item */
+  height: 350px; /* Increase the height to make it square */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute space between items */
 `;
 
 export const TestimonialText = styled.p`
   font-size: 1.2rem;
   font-style: italic;
   margin-bottom: 10px;
+  flex-grow: 1; /* Allow text to grow and take available space */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  white-space: normal; /* Allow text to wrap */
+  position: relative;
+
+  &:hover::after {
+    content: attr(data-fulltext);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    white-space: normal;
+    z-index: 10;
+    width: 300px;
+  }
 `;
 
 export const TestimonialAuthor = styled.p`
@@ -59,4 +86,9 @@ export const TestimonialImage = styled.img`
 export const TestimonialLocation = styled.p`
   font-size: 0.9rem;
   color: #888;
+`;
+
+export const Title = styled.h2`
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 `;

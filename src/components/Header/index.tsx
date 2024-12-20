@@ -68,7 +68,7 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+           <img src={`${process.env.PUBLIC_URL}/img/svg/ritanveshi_logo.png`} alt="Ritanveshi" width="101px" height="75px" />
           </LogoContainer>
           <NotHidden>
             <MenuItem />

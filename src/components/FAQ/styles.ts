@@ -4,9 +4,10 @@ import { Row } from "antd";
 // General container for the FAQ section
 export const FAQSection = styled.section`
   position: relative;
-  padding: 10rem 0 8rem;
+  padding: 50px 20px;
   background-color: #f9f9f9;
   margin: 4rem 0; /* Add top and bottom margin */
+  border-radius: 10px;
 
   @media only screen and (max-width: 1024px) {
     padding: 4rem 0 4rem;
@@ -17,10 +18,10 @@ export const FAQSection = styled.section`
 // Title for the FAQ section
 export const FAQTitle = styled.h2`
   font-size: 2.5rem;
+  margin-bottom: 20px;
   text-align: center;
-  margin-bottom: 3rem;
-  font-family: "Motiva Sans", sans-serif;
 `;
+
 
 // Wrapper for each FAQ item (question and answer)
 export const FAQItemWrapper = styled.div`

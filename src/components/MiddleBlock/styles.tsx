@@ -31,3 +31,8 @@ export const ContentWrapper = styled("div")`
     padding: 1.5rem; /* Reduced padding for smaller screens */
   }
 `;
+
+export const Title = styled.h2`
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+`;

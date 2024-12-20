@@ -14,10 +14,14 @@ const fadeInUp = keyframes`
 `;
 
 export const AboutRetreatWrapper = styled.div`
-  padding: 50px 0;
+  padding: 50px 20px;
   text-align: center;
   background-color: #DCFFF1; /* Remove the off-white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  border-radius: 10px;
 `;
+
 
 export const Title = styled.h2`
   font-size: 2.5rem;

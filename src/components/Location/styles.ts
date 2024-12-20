@@ -1,17 +1,21 @@
 import styled from "styled-components";
 
 export const LocationWrapper = styled.div`
-  padding: 50px 0;
+  padding: 50px 20px;
   text-align: center;
+  border-radius: 10px;
   background-color: #FEDEC8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
 `;
 
-export const LocationTitle = styled.h2`
+
+export const Title = styled.h2`
   font-size: 2.5rem;
   margin-bottom: 20px;
 `;
 
-export const LocationDescription = styled.p`
+export const Description = styled.p`
   font-size: 1.2rem;
   margin-bottom: 40px;
 `;

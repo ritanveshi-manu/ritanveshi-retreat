@@ -8,6 +8,7 @@ export const ContactContainer = styled("div")`
   gap: 3rem; /* Space between content and form */
   max-width: 100%;
   margin: 0 auto; /* Center the container */
+  border-radius: 10px;
 
 `;
 
@@ -18,7 +19,7 @@ export const StyledRow = styled(Row)`
   background-color: #fdd0ec; /* Set background color */
   display: flex;
   align-items: stretch; /* Ensure children stretch to the same height */
-
+  border-radius: 10px;
   @media only screen and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
