@@ -36,7 +36,7 @@ const FloatingButton = () => {
     <Button onClick={scrollToContactForm}>
       <img
         src={`${process.env.PUBLIC_URL}/img/svg/book_now.png`}
-        alt="Book Now"
+        alt="Reserve Now"
         style={{ width: '100%', height: '100%', borderRadius: '50%' }}
       />
     </Button>

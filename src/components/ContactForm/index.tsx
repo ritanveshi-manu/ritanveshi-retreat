@@ -50,7 +50,7 @@ const Contact = ({ id }: { id: string }) => {
                   width: "100%",
                   height: "100%",
                 }}
-                title="Book Now Form"
+                title="Reserve Now Form"
               ></iframe>
             </ContentWrapper>
           </Fade>
