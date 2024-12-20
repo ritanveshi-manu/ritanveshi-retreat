@@ -31,7 +31,7 @@ const Contact = ({ id }: { id: string }) => {
               {leftSection.highlights.map((point, index) => (
                 <Highlight key={index}>{point}</Highlight>
               ))}
-              <p>Contact: {leftSection.contact.phone} | {leftSection.contact.email}</p>
+              <p>Contact: {leftSection.contact.email}</p>
               <h4>{leftSection.callToAction}</h4>
               <p>{leftSection.description}</p>
               {/* <ButtonWrapper>
