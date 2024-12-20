@@ -44,7 +44,9 @@ const ContentBlock = ({
           direction={direction}
         >
           <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
+            {id !== "mission" && (
+              <SvgIcon src={icon} width="100%" height="100%" />
+            )}
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
@@ -52,7 +54,18 @@ const ContentBlock = ({
               <Content>
                 <ReactMarkdown>{t(content)}</ReactMarkdown>
               </Content>
-              {direction === "right" ? (
+              {id === "mission" ? (
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/MD6V-nAFbAM?si=UYFiJk5DhYr-0jZT"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+              ) : direction === "right" ? (
                 <ButtonWrapper>
                   {typeof button === "object" &&
                     button.map(

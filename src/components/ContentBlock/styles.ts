@@ -1,6 +1,7 @@
 import { Row } from "antd";
 import styled from "styled-components";
 
+
 export const ContentSection = styled("section")`
   position: relative;
   padding: 10rem 2rem 8rem; /* Added horizontal padding for margin */
