@@ -60,28 +60,35 @@ export const Question = styled.div`
 export const Answer = styled.div`
   padding: 1.2rem;
   font-size: 1rem;
-  color: #555;
   background-color: #f9f9f9;
   border-top: 1px solid #ddd;
   border-radius: 8px;
   margin-top: 1rem;
+  color: #666; /* Updated font color to grey */
   transition: max-height 0.3s ease;
 
   p {
+    font-size: 1rem;
     margin-bottom: 1rem;
+    color: #666; /* Updated font color to grey */
   }
 
   ul {
     padding-left: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
+    color: #666; /* Updated font color to grey */
   }
 
   li {
     margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #666; /* Updated font color to grey */
   }
 
   strong {
     font-weight: bold;
+    color: #666; /* Updated font color to grey */
   }
 `;
 
