@@ -8,6 +8,7 @@ import {
   ScheduleTitle,
   IconWrapper,
   ScheduleListWrapper,
+  Text,
 } from "./styles"; // Import styled components
 import { FaChevronDown, FaChevronUp } from "react-icons/fa"; // Import icons
 
@@ -23,7 +24,7 @@ const RetreatSchedule: React.FC<RetreatScheduleProps> = ({ title, text, days, id
   return (
     <ScheduleSection id={id}>
       <ScheduleTitle>{title}</ScheduleTitle>
-      <p>{text}</p>
+      <Text>{text}</Text>
 
       <ScheduleListWrapper>
         {days.map((day, index) => (

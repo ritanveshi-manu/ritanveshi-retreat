@@ -22,6 +22,14 @@ export const ScheduleTitle = styled.h2`
   text-align: center;
 `;
 
+export const Text = styled.p`
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 1rem;
+`;
+
+
 // Wrapper for each schedule item (day and activities)
 export const ScheduleItemWrapper = styled.div`
   margin-bottom: 1.5rem;
