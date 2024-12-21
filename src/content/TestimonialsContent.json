@@ -5,42 +5,48 @@
       "content": "This retreat was life-changing! I feel rejuvenated and more connected to myself. The serene environment and the well-structured sessions were exactly what I needed.",
       "date": "2024-07-19",
       "rating": 5,
-      "location": "Amroha, UP"
+      "location": "Amroha, UP",
+      "imageUrl": "img/svg/manu.jpg"
     },
     {
-      "name": "Komala Arun",
+      "name": "Kamini Kayat",
       "content": "The yoga sessions were amazing, and the instructors were very supportive. I learned so much about mindfulness and meditation. Can't wait to come back!",
       "date": "2023-09-15",
       "rating": 4,
-      "location": "Bengaluru, Karnataka"
+      "location": "Delhi, India",
+      "imageUrl": "img/svg/kamini.jpg"
     },
     {
-      "name": "Saurabh Malik",
+      "name": "Neeshu Agarwal",
       "content": "I loved the peaceful environment and the sense of community. The food was delicious and healthy, and the accommodations were very comfortable. Highly recommend!",
       "date": "2023-08-20",
       "rating": 5,
-      "location": "Hyderabad, India"
+      "location": "Delhi, India",
+      "imageUrl": "img/svg/neeshu.jpg"
     },
     {
       "name": "Mukesh Saraswat",
       "content": "The retreat provided a perfect balance of relaxation and activity. The workshops were insightful, and I left with a new perspective on life. Thank you!",
       "date": "2023-08-20",
       "rating": 5,
-      "location": "Mathura, UP"
+      "location": "Mathura, UP",
+      "imageUrl": "img/svg/mukesh.jpg"
     },
     {
-      "name": "Gopika",
+      "name": "Karishma Sengar",
       "content": "The instructors were knowledgeable and approachable. The retreat helped me disconnect from the daily grind and reconnect with my inner self. A truly transformative experience.",
       "date": "2023-08-20",
       "rating": 5,
-      "location": "Bengaluru, Karnataka"
+      "location": "Canada",
+      "imageUrl": "img/svg/karishma.jpg"
     },
     {
-      "name": "Parul Balikere",
+      "name": "Roshan Pathak",
       "content": "The retreat was a perfect getaway. The natural surroundings were breathtaking, and the activities were well-organized. I returned home feeling refreshed and inspired.",
       "date": "2023-08-20",
       "rating": 5,
-      "location": "Bengaluru, Karnataka"
+      "location": "Delhi, India",
+      "imageUrl": "img/svg/roshan.jpg"
     }
   ]
 }

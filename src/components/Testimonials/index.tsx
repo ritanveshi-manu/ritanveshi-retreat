@@ -30,7 +30,11 @@ const Testimonials: React.FC<TestimonialsProps> = ({ testimonials }) => {
         {testimonials.map((testimonial, index) => (
           <TestimonialItem key={index}>
             <TestimonialImage
-              src={testimonial.imageUrl || `${process.env.PUBLIC_URL}/img/svg/default_profile.svg`}
+              src={
+                testimonial.imageUrl
+                  ? `${process.env.PUBLIC_URL}${testimonial.imageUrl}`
+                  : `${process.env.PUBLIC_URL}/img/svg/default_profile.svg`
+              }
               alt={testimonial.name}
             />
             <TestimonialText data-fulltext={testimonial.content}>
