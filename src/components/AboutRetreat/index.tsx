@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { AboutRetreatWrapper, Title, Text, SectionWrapper, SectionItem, SectionTitle, SectionContent, SectionIcon, ImageSliderWrapper, ImageSlide } from "./styles";
+import { AboutRetreatWrapper, Title, Text, SectionWrapper, SectionItem, SectionTitle, SectionContent, ImageSliderWrapper, ImageSlide } from "./styles";
 import { AboutRetreatProps } from "./types";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

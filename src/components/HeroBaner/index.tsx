@@ -1,5 +1,4 @@
-import React from "react";
-import { HeroBannerWrapper, HeroTitle, HeroSubtitle } from "./styles";
+import { HeroBannerWrapper } from "./styles";
 
 const HeroBaner = () => {
   return (

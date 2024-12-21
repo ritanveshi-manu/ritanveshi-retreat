@@ -18,10 +18,10 @@ const Testimonials: React.FC<TestimonialsProps> = ({ testimonials }) => {
   const [modalVisible, setModalVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
 
-  const handleMoreClick = (content: string) => {
-    setModalContent(content);
-    setModalVisible(true);
-  };
+  // const handleMoreClick = (content: string) => {
+  //   setModalContent(content);
+  //   setModalVisible(true);
+  // };
 
   return (
     <TestimonialsWrapper>

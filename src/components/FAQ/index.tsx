@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FAQItem, FAQProps } from "./types";
+import { FAQProps } from "./types";
 import {
   FAQSection,
   FAQTitle,

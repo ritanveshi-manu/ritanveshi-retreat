@@ -1,22 +1,11 @@
-import { BrowserRouter, useHistory } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import { I18nextProvider } from "react-i18next";
-import { useEffect } from "react";
 import "antd/dist/antd.css";
 
 import Router from "./router";
 import i18n from "./translation";
 
-// const AppRouter = () => {
-//   const history = useHistory();
-
-//   useEffect(() => {
-//     // Navigate to the initial route
-//     history.push("/");
-//   }, [history]);
-
-//   return <Router />;
-// };
 
 const App = () => (
   <BrowserRouter basename="/">

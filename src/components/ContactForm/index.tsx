@@ -1,25 +1,22 @@
 import { Fade } from "react-awesome-reveal";
-import { Button } from "../../common/Button";
 import ContactContent from "../../content/ContactContent.json";
-import { Row, Col } from "antd";
+import { Col } from "antd";
 import {
   ContactContainer,
   ContentWrapper,
   Highlight,
-  FormContainer,
-  ButtonWrapper,
   StyledRow,
 } from "./styles";
 
 const Contact = ({ id }: { id: string }) => {
   const { leftSection } = ContactContent;
 
-  const scrollToForm = () => {
-    const formElement = document.getElementById("booking-form");
-    if (formElement) {
-      formElement.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  // const scrollToForm = () => {
+  //   const formElement = document.getElementById("booking-form");
+  //   if (formElement) {
+  //     formElement.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
 
   return (
     <ContactContainer id={id}>

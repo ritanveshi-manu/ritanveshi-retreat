@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Row } from "antd";
 
 // General container for the schedule section
 export const ScheduleSection = styled.section`

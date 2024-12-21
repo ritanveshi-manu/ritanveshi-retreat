@@ -10,14 +10,14 @@ const fadeIn = keyframes`
   }
 `;
 
-const slideInFromLeft = keyframes`
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-`;
+// const slideInFromLeft = keyframes`
+//   from {
+//     transform: translateX(-100%);
+//   }
+//   to {
+//     transform: translateX(0);
+//   }
+// `;
 
 export const HeroBannerWrapper = styled.div`
   background: url('${process.env.PUBLIC_URL}/img/svg/banner_2.jpg') no-repeat center center;
@@ -34,15 +34,15 @@ export const HeroBannerWrapper = styled.div`
   min-height: 500px; /* Ensure a minimum height */
 `;
 
-export const HeroTitle = styled.h1`
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  animation: ${slideInFromLeft} 1s ease-in-out;
-  color: #fff; /* Ensure text color is white */
-`;
+// export const HeroTitle = styled.h1`
+//   font-size: 2.5rem;
+//   margin-bottom: 20px;
+//   animation: ${slideInFromLeft} 1s ease-in-out;
+//   color: #fff; /* Ensure text color is white */
+// `;
 
-export const HeroSubtitle = styled.h2`
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #fff; /* Ensure text color is white */
-`;
+// export const HeroSubtitle = styled.h2`
+//   font-size: 2rem;
+//   margin-bottom: 20px;
+//   color: #fff; /* Ensure text color is white */
+// `;

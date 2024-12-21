@@ -9,16 +9,15 @@ const Location: React.FC<LocationProps> = ({
   title,
   description,
   images,
-  googleMapUrl,
   id,
 }) => {
   // Scroll to section function
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  };
+  // const scrollToSection = (sectionId: string) => {
+  //   const element = document.getElementById(sectionId);
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: "smooth", block: "start" });
+  //   }
+  // };
 
   useEffect(() => {
     // Optionally scroll to this section on component mount (if necessary)

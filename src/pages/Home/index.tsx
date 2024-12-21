@@ -1,11 +1,10 @@
 import { lazy, useEffect, useState } from "react";
-import CookieConsent, { Cookies } from "react-cookie-consent"; // Import CookieConsent and Cookies
+import CookieConsent from "react-cookie-consent"; // Import CookieConsent and Cookies
 import { Modal } from "antd";
 import ReactMarkdown from "react-markdown";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
-import ContactContent from "../../content/ContactContent.json";
 import RetreatScheduleContent from "../../content/RetreatSchdule.json";
 import TestimonialsContent from "../../content/TestimonialsContent.json";
 import SpeakersContent from "../../content/SpeakersContent.json";
@@ -19,10 +18,9 @@ import AboutRitanveshi from "../../components/AboutRitanveshi";
 import Testimonials from "../../components/Testimonials";
 import Speakers from "../../components/Speakers";
 import FloatingButton from "./FloatingButton"; // Import FloatingButton
-import { PolicyWrapper, Large, Title, MarkdownContent } from "../../components/Policy/styles";
+import { MarkdownContent } from "../../components/Policy/styles";
 import policyContent from "../../content/PolicyContent.json"; // Import the policy content
 
-const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
@@ -39,10 +37,10 @@ const Home = () => {
     setModalVisible(true);
   };
 
-  const clearCookieConsent = () => {
-    Cookies.remove("RitanveshiCookieConsent");
-    window.location.reload(); // Reload the page to show the consent banner again
-  };
+  // const clearCookieConsent = () => {
+  //   Cookies.remove("RitanveshiCookieConsent");
+  //   window.location.reload(); // Reload the page to show the consent banner again
+  // };
 
   useEffect(() => {
     // Any initialization or cleanup code can go here

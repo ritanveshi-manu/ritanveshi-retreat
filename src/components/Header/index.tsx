@@ -2,11 +2,9 @@ import { useState } from "react";
 import { Row, Col, Drawer } from "antd";
 import { withTranslation, TFunction } from "react-i18next";
 import Container from "../../common/Container";
-import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
 import HeroBaner from "../HeroBaner"; // Import the HeroBanner component
 import Contact from "../ContactForm";
-import { Fade } from "react-awesome-reveal";
 import {
   HeaderSection,
   LogoContainer,
@@ -18,7 +16,6 @@ import {
   Outline,
   Span,
 } from "./styles";
-import Column from "antd/lib/table/Column";
 
 const Header = ({ t }: { t: TFunction }) => {
   const [visible, setVisibility] = useState(false);
