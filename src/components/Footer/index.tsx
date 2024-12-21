@@ -69,7 +69,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col> */}
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
-              <Large to="/">{t("Customer Support")}</Large>
+              <Large as="a" href="mailto:retreat@ritanveshi.org">{t("Customer Support")}</Large>
             </Col>
           </Row>
           <Row justify="space-between">

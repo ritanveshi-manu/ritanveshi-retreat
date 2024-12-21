@@ -5,8 +5,6 @@ import ReactMarkdown from "react-markdown";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
-import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 import RetreatScheduleContent from "../../content/RetreatSchdule.json";
 import TestimonialsContent from "../../content/TestimonialsContent.json";
@@ -17,6 +15,7 @@ import FAQ from "../../components/FAQ";
 import Location from "../../components/Location";
 import LocationContent from "../../content/LocationContent.json";
 import AboutRetreat from "../../components/AboutRetreat";
+import AboutRitanveshi from "../../components/AboutRitanveshi";
 import Testimonials from "../../components/Testimonials";
 import Speakers from "../../components/Speakers";
 import FloatingButton from "./FloatingButton"; // Import FloatingButton
@@ -93,14 +92,15 @@ const Home = () => {
         days={RetreatScheduleContent.days}
         id="retreat-schedule"
       />
-      <ContentBlock
+      <AboutRitanveshi id="mission" key="mission"/>
+      {/* <ContentBlock
         key="mission"
         direction="right"
         title={MissionContent.title}
         content={MissionContent.text}
         icon="ritanveshi_logo.png"
         id="mission"
-      />
+      /> */}
       <Testimonials testimonials={TestimonialsContent.testimonials} /> 
       <FAQ faqs={FAQContent.faqs} />
       <FloatingButton /> {/* Add the FloatingButton component */}
