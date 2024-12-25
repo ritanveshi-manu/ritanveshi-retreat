@@ -4,6 +4,7 @@ import { Col } from "antd";
 import {
   ContactContainer,
   ContentWrapper,
+  FormContainer,
   Highlight,
   StyledRow,
 } from "./styles";
@@ -24,6 +25,7 @@ const Contact = ({ id }: { id: string }) => {
                   width: "100%",
                   height: "100%", // Set height to 100% to avoid scroll
                   minHeight: "500px", // Ensure a minimum height
+                  flex: 1, // Ensure the iframe takes up the full height
                 }}
                 title="Reserve Now Form"
               ></iframe>

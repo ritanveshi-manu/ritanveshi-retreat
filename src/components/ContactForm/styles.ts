@@ -35,10 +35,8 @@ export const ContentWrapper = styled("div")`
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
-  display: flex;
-  flex-direction: column;
   justify-content: center; /* Center content vertically */
-  min-height: 500px; /* Set a minimum height */
+  height: 750px; /* Set a minimum height */
   @media only screen and (max-width: 768px) {
     height: auto; /* Adjust height for mobile devices */
     padding: 1rem; /* Adjust padding for mobile devices */
@@ -61,6 +59,7 @@ export const FormContainer = styled("div")`
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center content vertically */
+  flex: 1; /* Ensure the container takes up the full height */
   min-height: 500px; /* Set a minimum height */
   @media only screen and (max-width: 768px) {
     height: auto; /* Adjust height for mobile devices */
