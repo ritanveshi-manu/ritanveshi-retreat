@@ -9,7 +9,7 @@ export const ContactContainer = styled("div")`
   max-width: 100%;
   margin: 0 auto; /* Center the container */
   border-radius: 10px;
-
+  padding: 2rem; /* Add padding to the container */
 `;
 
 export const StyledRow = styled(Row)`
@@ -23,6 +23,8 @@ export const StyledRow = styled(Row)`
   @media only screen and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
+    padding: 1rem; /* Adjust padding for mobile devices */
+    gap: 1rem; /* Add gap between stacked columns */
   }
 `;
 
@@ -36,7 +38,12 @@ export const ContentWrapper = styled("div")`
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center content vertically */
-  height: 830px; /* Set a fixed height */
+  min-height: 500px; /* Set a minimum height */
+  @media only screen and (max-width: 768px) {
+    height: auto; /* Adjust height for mobile devices */
+    padding: 1rem; /* Adjust padding for mobile devices */
+    width: 100%; /* Ensure full width on mobile devices */
+  }
 `;
 
 export const Highlight = styled("p")`
@@ -54,7 +61,12 @@ export const FormContainer = styled("div")`
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center content vertically */
-  height: 500px; /* Set a fixed height */
+  min-height: 500px; /* Set a minimum height */
+  @media only screen and (max-width: 768px) {
+    height: auto; /* Adjust height for mobile devices */
+    padding: 1rem; /* Adjust padding for mobile devices */
+    width: 100%; /* Ensure full width on mobile devices */
+  }
 `;
 
 export const ButtonWrapper = styled("div")`

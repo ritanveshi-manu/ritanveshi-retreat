@@ -6,8 +6,7 @@ export const SpeakersWrapper = styled.div`
   background-color: #FFF7D6;
   margin: 2rem auto; /* Center the wrapper and add top and bottom margin */
   width: 70%; /* Set the width to 70% of the parent container */
-  max-width: 800px; /* Set a maximum width */
-  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  border-radius: 10px; /* Optional: Add border radius for rounded corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for better appearance */
 
   @media only screen and (max-width: 768px) {
