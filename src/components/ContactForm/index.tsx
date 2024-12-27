@@ -41,7 +41,7 @@ const Contact = ({ id }: { id: string }) => {
               {leftSection.highlights.map((point, index) => (
                 <Highlight key={index}>{point}</Highlight>
               ))}
-              <p>Contact: {leftSection.contact.email}</p>
+              {/* <p>Contact: {leftSection.contact.email}</p> */}
             </ContentWrapper>
           </Fade>
         </Col>
