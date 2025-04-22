@@ -9,18 +9,11 @@
       "imageUrl": "img/svg/dr_rajesh_k.jpg"
     },
     {
-      "name": "Jaehong Lee",
-      "description": "A seasoned yoga teacher, combines India’s diverse yoga traditions with global expertise. He founded South Korea’s first therapeutic yoga studio, led 100+ workshops, presented at global conferences, and designed corporate wellness programs for Samsung and Naver.",
+      "name": "Manisha Pal",
+      "description": "A seasoned yoga teacher, combines India’s diverse yoga traditions and modern wellness practices. With a focus on holistic well-being, she guides students through transformative yoga experiences.",
       "expertise": "Yoga, Meditation",
-      "location": "South Korea",
-      "imageUrl": "img/svg/lee.jpg"
-    },
-    {
-      "name": "Nicole Herrmann",
-      "description": "From Brazil, she is an expert in asana and pranayama. She specializes in immediate relaxation, balancing stress, controlling anxiety, managing emotions, and boosting energy. Her practices help individuals cope with depression and maintain emotional well-being.",
-      "expertise": "Yoga, Meditation",
-      "location": "Brazil",
-      "imageUrl": "img/svg/nicole.jpg"
+      "location": "Noida",
+      "imageUrl": "img/svg/default.jpg"
     }
   ]
 }

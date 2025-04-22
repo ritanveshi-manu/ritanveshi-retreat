@@ -1,6 +1,6 @@
 {
-    "title": "Venue: Auro Valley Ashram Raiwala, Rishikesh, India",
-    "description": "Nestled at the foothills of the Himalayas, in the banks of the river Ganges, Aurovalley is in the heart of Nature. Surrounded by the sound of birds, people of any spiritual background or creed can find the ideal atmosphere to contact their own divinity. All ages, all levels of education, different languages, different habits, different attitudes, different believes, all beings are welcome.",
+    "title": "Venue: Shivoham, Chamba, Uttarakhand, India",
+    "description": "Nestled in the serene hills of Chamba, Uttarakhand, Shivoham is a sanctuary for those seeking peace and rejuvenation. Surrounded by lush greenery and the majestic Himalayas, this retreat center offers a perfect blend of natural beauty and modern amenities. With spacious accommodations, nutritious meals, and a tranquil environment, Shivoham is the ideal setting for our yoga retreat. Experience the divine energy of this sacred place as you embark on a journey of self-discovery and transformation.",
     "images": [
       "img/svg/location_image1.jpg",
       "img/svg/location_image2.jpg",
@@ -18,6 +18,7 @@
       "img/svg/location_image14.jpg",
       "img/svg/location_image15.jpg"
     ],
-    "googleMapUrl": "https://www.google.com/maps/place/Rishikesh,+Uttarakhand/data=!4m2!3m1!1s0x39093e67cf93f111:0xcc78804a6f941bfe?sa=X&ved=1t:242&ictx=111",
+    "googleMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.3341597309286!2d78.40479817595816!3d30.313011605795555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39091d0025e894f7%3A0x1f2fd55ef5b62fb6!2sShivoham%20Yoga%20Meditation%20and%20inner%20Engg.!5e0!3m2!1sen!2sin!4v1745338413730!5m2!1sen!2sin",
     "id": "location"
 }
+

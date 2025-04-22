@@ -52,8 +52,8 @@ const Location: React.FC<LocationProps> = ({
       <MapWrapper>
         <Title>Find us on the Map</Title>
         <iframe 
-        title="Auroville Ashram, Rishikesh, Uttarakhand"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110548.00008964975!2d78.13076119711461!3d30.018922273819804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39093f33bab68a9d%3A0x2b8e46e26418955c!2sAuro%20Valley%20Ashram%20Raiwala%20Rishikesh!5e0!3m2!1sen!2sin!4v1734542238156!5m2!1sen!2sin" 
+        title="Shivoham Yoga Meditation and inner Engg."
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.3341597309286!2d78.40479817595816!3d30.313011605795555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39091d0025e894f7%3A0x1f2fd55ef5b62fb6!2sShivoham%20Yoga%20Meditation%20and%20inner%20Engg.!5e0!3m2!1sen!2sin!4v1745338623761!5m2!1sen!2sin"
         width="100%" 
         height="450" 
         style={{ border: "1px" }} 

@@ -83,13 +83,13 @@ const Home = () => {
         images={LocationContent.images}
         googleMapUrl={LocationContent.googleMapUrl}
       />
-      <RetreatSchedule
+      {/* <RetreatSchedule
         key="retreat-schedule"
         title={RetreatScheduleContent.title}
         text={RetreatScheduleContent.text}
         days={RetreatScheduleContent.days}
         id="retreat-schedule"
-      />
+      /> */}
       <AboutRitanveshi id="mission" key="mission"/>
       {/* <ContentBlock
         key="mission"

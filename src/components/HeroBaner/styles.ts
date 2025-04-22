@@ -20,7 +20,7 @@ const fadeIn = keyframes`
 // `;
 
 export const HeroBannerWrapper = styled.div`
-  background: url('${process.env.PUBLIC_URL}/img/svg/banner_2.jpg') no-repeat center center;
+  background: url('${process.env.PUBLIC_URL}/img/svg/summer_retreat_herobanner.jpg') no-repeat center center;
   background-size: cover;
   padding: 100px 20px;
   text-align: center;
