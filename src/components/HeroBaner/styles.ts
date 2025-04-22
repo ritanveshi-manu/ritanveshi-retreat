@@ -10,15 +10,6 @@ const fadeIn = keyframes`
   }
 `;
 
-// const slideInFromLeft = keyframes`
-//   from {
-//     transform: translateX(-100%);
-//   }
-//   to {
-//     transform: translateX(0);
-//   }
-// `;
-
 export const HeroBannerWrapper = styled.div`
   background: url('${process.env.PUBLIC_URL}/img/svg/summer_retreat_herobanner.jpg') no-repeat center center;
   background-size: cover;
@@ -30,19 +21,30 @@ export const HeroBannerWrapper = styled.div`
   align-items: center;
   justify-content: center;
   animation: ${fadeIn} 2s ease-in-out;
-  // height: 100vh; /* Set the height to 100% of the viewport height */
   min-height: 500px; /* Ensure a minimum height */
+
+  @media only screen and (max-width: 768px) {
+    padding: 50px 10px; /* Adjust padding for mobile devices */
+    min-height: 300px; /* Adjust minimum height for mobile devices */
+  }
 `;
 
-// export const HeroTitle = styled.h1`
-//   font-size: 2.5rem;
-//   margin-bottom: 20px;
-//   animation: ${slideInFromLeft} 1s ease-in-out;
-//   color: #fff; /* Ensure text color is white */
-// `;
+export const HeroTitle = styled.h1`
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff; /* Ensure text color is white */
 
-// export const HeroSubtitle = styled.h2`
-//   font-size: 2rem;
-//   margin-bottom: 20px;
-//   color: #fff; /* Ensure text color is white */
-// `;
+  @media only screen and (max-width: 768px) {
+    font-size: 2rem; /* Adjust font size for mobile devices */
+  }
+`;
+
+export const HeroSubtitle = styled.h2`
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff; /* Ensure text color is white */
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1.5rem; /* Adjust font size for mobile devices */
+  }
+`;

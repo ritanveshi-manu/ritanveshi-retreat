@@ -4,6 +4,7 @@ import { Col } from "antd";
 import {
   ContactContainer,
   ContentWrapper,
+  FormContainer,
   Highlight,
   StyledRow,
 } from "./styles";
@@ -11,33 +12,10 @@ import {
 const Contact = ({ id }: { id: string }) => {
   const { leftSection } = ContactContent;
 
-  // const scrollToForm = () => {
-  //   const formElement = document.getElementById("booking-form");
-  //   if (formElement) {
-  //     formElement.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
-
   return (
     <ContactContainer id={id}>
       <StyledRow justify="space-between" align="middle">
-        <Col lg={11} md={11} sm={24} xs={24}>
-          <Fade direction="left" triggerOnce>
-            <ContentWrapper>
-              <h2>{leftSection.title}</h2>
-              {leftSection.highlights.map((point, index) => (
-                <Highlight key={index}>{point}</Highlight>
-              ))}
-              <p>Contact: {leftSection.contact.email}</p>
-              <h4>{leftSection.callToAction}</h4>
-              <p>{leftSection.description}</p>
-              {/* <ButtonWrapper>
-                <Button onClick={scrollToForm}>{leftSection.buttonText}</Button>
-              </ButtonWrapper> */}
-            </ContentWrapper>
-          </Fade>
-        </Col>
-        <Col lg={11} md={11} sm={24} xs={24}>
+        <Col lg={11} md={11} sm={24} xs={24} style={{ marginBottom: '1rem' }}>
           <Fade direction="right" triggerOnce>
             <ContentWrapper id="booking-form">
               <iframe
@@ -45,10 +23,25 @@ const Contact = ({ id }: { id: string }) => {
                 style={{
                   border: 0,
                   width: "100%",
-                  height: "100%",
+                  height: "100%", // Set height to 100% to avoid scroll
+                  minHeight: "500px", // Ensure a minimum height
+                  flex: 1, // Ensure the iframe takes up the full height
                 }}
                 title="Reserve Now Form"
               ></iframe>
+            </ContentWrapper>
+          </Fade>
+        </Col>
+        <Col lg={11} md={11} sm={24} xs={24}>
+          <Fade direction="left" triggerOnce>
+            <ContentWrapper>
+              <h4>{leftSection.callToAction}</h4>
+              <p>{leftSection.description}</p>
+              <h2>{leftSection.title}</h2>
+              {leftSection.highlights.map((point, index) => (
+                <Highlight key={index}>{point}</Highlight>
+              ))}
+              {/* <p>Contact: {leftSection.contact.email}</p> */}
             </ContentWrapper>
           </Fade>
         </Col>

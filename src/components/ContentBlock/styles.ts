@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const ContentSection = styled("section")`
   position: relative;
-  padding: 10rem 2rem 8rem; /* Added horizontal padding for margin */
+  padding: 50px 20px;
   background-color: #E7F9FF;
   box-sizing: border-box; /* Ensures padding doesn't overflow */
   border-radius: 10px;
